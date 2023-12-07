@@ -36,8 +36,8 @@
 
 <script>
 export default {
-    name: 'RobotBuilder', // Component name
-}
+  name: 'RobotBuilder', // Component name
+};
 </script>
 
 <style>
