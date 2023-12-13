@@ -2,7 +2,12 @@
 <div>
   <div class="top-row">
     <div class="top part">
-      <div class="robot-name">{{ selectedRobot.head.title }}</div>
+      <div class="robot-name">
+        {{ selectedRobot.head.title }}
+        <span v-if="selectedRobot.head.onSale" class="sale">
+          Sale!
+        </span>
+      </div>
       <img :src="selectedRobot.head.imageUrl" alt="head" />
       <button @:click="selectNextHead()" class="prev-selector">&#9668;</button>
       <button @:click="selectNextHead()" class="next-selector">&#9658;</button>
@@ -246,4 +251,7 @@ export default {
   width: 100%;
 }
 
+.sale {
+  color: red;
+}
 </style>
