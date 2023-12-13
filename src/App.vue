@@ -1,7 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <h1>Robot Builder</h1>
   <RobotBuilder />
 </template>
 
